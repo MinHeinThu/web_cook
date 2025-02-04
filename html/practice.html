@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <!-- header contains introductory content -->
+     <header>
+        <h1>HTML tags overviews</h1>
+        <p>This document demostrates a variety of HTML tags</p>
+     </header>
+
+    <!-- Navigation  Section: Provides links to difference sections -->
+     <nav>
+        <ul>
+            <li><a href="#section1">Basic Text Element</a></li>
+            <li><a href="#section2">List and Tables</a></li>
+            <li><a href="#section3">Froms and Multimedia</a></li>
+        </ul>
+     </nav>
+
+    <!-- Main content area -->
+     <main>
+        <!-- Section1 basic text elements -->
+         <section id="section1">
+            <h2>Basic Text Element</h2>
+            <blockquote cite="https://www.example.com">
+                This is a blockquote—a section meant for quoting external content.
+            </blockquote>
+            <pre>
+                function helloWorld() {
+                    console.log('Hello, World');
+                }
+            </pre>
+            <code>x = 10</code>
+            <br>
+            <hr>
+         </section>
+         <!-- Section2 : List and table-->
+         <section id="section2">
+            <h2>List and tables</h2>
+            <h3>Unordered list</h3>
+            <ul>
+                <li>M</li>
+                <li>I</li>
+                <li>N</li>
+            </ul>
+            <h3>Ordered list</h3>
+            <ol>
+                <li>M</li>
+                <li>I</li>
+                <li>N</li>
+            </ol>
+            <h3>Defination list</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>A markup language for creating web sites</dd>
+                <dt>CSS</dt>
+                <dd>A style sheet language for styling for web sites</dd>
+            </dl>
+
+            <h3>Tables</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Major</th>
+                        <th>Minor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Coding</td>
+                        <td>Programming</td>
+                        <td>Solving</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>10</td>
+                        <td>20</td>
+                        <td>10</td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+         </section>
+         <!-- Section3 : Forms and multimedia elements -->
+          <section id="section3">
+            <h2>Forms and Multimedia</h2>
+            <form action="/submit" method="post">
+                <fieldset>
+                    <legend>Contant Form</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                    <br>
+                    <label for="message">Message:</label>
+                    <textarea name="massage" id="message" rows="4" cols="50">
+
+                    </textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <p>Below is the example of embedded video</p>
+            <iframe src="https://youtu.be/dQw4w9WgXcQ?si=2VNbbMtsecSzWIcX" frameborder="0" width="300" height="200" title = 'Embedded Video' allowfullscreen></iframe>
+            <video src="https://youtu.be/dQw4w9WgXcQ?si=2VNbbMtsecSzWIcX"></video>
+            <video>
+                <source src="<source src="movie.mp4" type="video/mp4">
+            </video>
+
+          </section>
+     </main>
+
+</body>
+</html>
